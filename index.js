@@ -8,7 +8,7 @@ db.init(pg_config)
 
 db.models.sequelize.sync().then(function(){
     db.postinit().then(()=>{
-        console.log('intialize schema success!')
+        console.log('intialize sequelize schema success!')
         process.exit(0)
     })
 })
