@@ -1,6 +1,6 @@
 {
   "name": "sequelize-schema-init",
-  "version": "1.0.0-beta.2",
+  "version": "1.0.1",
   "bin": {
     "initSequelizeSchema": "index.js"
   },
@@ -9,6 +9,6 @@
   "dependencies": {
     "config": "^1.25.1",
     "lodash": "^4.17.4",
-    "sequelize-wrapper-advanced":"1.0.0-beta.2"
+    "sequelize-wrapper-advanced": "^1.0.2"
   }
 }
